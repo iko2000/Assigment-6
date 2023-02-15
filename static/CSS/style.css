@@ -1,0 +1,384 @@
+@font-face {
+    font-family: Cinzel-exratbold;
+    src: url('../Fonts/Cinzel-ExtraBold.ttf');
+}
+@font-face {
+    font-family: Cinzel-bold;
+    src: url('../Fonts/Cinzel-Bold.ttf');
+}
+@font-face {
+    font-family: Cinzel-medium;
+    src: url('../Fonts/Cinzel-Medium.ttf');
+}
+@font-face {
+    font-family: Open-sans;
+    src: url('../Fonts/OpenSans-Regular.ttf');
+}
+
+
+
+/* Styling for Menu */
+
+header nav  {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5EFEF;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+.menu {
+    font-family: Cinzel-medium;
+}
+.logo {
+    gap: 200px;
+    margin-right: 444px;
+    margin-left: 70px;
+    font-family: Cinzel-medium;
+    color: black;
+    height: 30px;
+
+}
+.logo2 {
+    font-family: Cinzel-exratbold;
+    color: black;
+}
+.im {
+   margin-left: 8px;
+   margin-top: 20px;
+}
+
+/* Styling for footer */ 
+
+footer {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    background-color: #F5EFEF;
+}
+
+
+.footer-1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.footer-1-1 {
+   margin-bottom: 50px;
+
+  
+
+}
+.footer-txt {
+    margin-bottom: 11px;
+    font-family: Cinzel-exratbold;
+}
+.footer-txt-1 {
+    font-family: Cinzel-medium;
+}
+.footer-1-2 {
+    width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-2 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: Cinzel-medium;
+
+
+}
+.footer-3 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cinzel-medium;
+
+}
+
+.footer-3 div {
+    display: flex;
+}
+.footer-3 img {
+    margin-right: 19px;
+}
+
+/* Home page styling */
+
+
+section {
+    width: 100%;
+    height: 600px;
+    display: inline;
+}
+h1 {
+    margin-top: 160px;
+    margin-bottom: 100px;
+    margin-left: 113px;
+    font-family: Cinzel-bold;
+
+    
+}
+
+.homepage-main {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Cinzel-bold;
+
+
+}
+
+.homepage-1 {
+    background: #F7F5F5;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 9.61403px;
+    width: 340px;
+    height: 530px;
+}
+.homepage-2 {
+    background: #F7F5F5;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 9.61403px;
+    width: 340px;
+    height: 530px;
+}
+.homepage-3 {
+    background: #F7F5F5;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 9.61403px;
+    width: 340px;
+    height: 530px;
+}
+
+.main-img {
+    margin: 20px
+}
+.floor-price {
+    width: 100%;
+    height: 50px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.floor-price div {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.main-btn {
+    float: right;
+    margin-right: 30px;
+    background-color: #3F3232;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-family: Cinzel-bold;
+    border: none;
+
+}
+.main-btn-1 {
+    margin-left: 1020px;
+    width: 237px;
+    height: 63px;
+    background-color: #3F3232;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 160px;
+    border: none;
+    font-family: Cinzel-bold;
+
+}
+
+/* This is styling of FAQ */
+
+.faq-section h1 {
+    margin-left: 220px;
+    font-family: Cinzel-bold;
+
+
+}
+.faq-section div {
+    width: 70%;
+    margin-left: 220px;
+    margin-bottom: 120px;
+
+}
+
+.faq-section p {
+    font-family: Open-sans;
+    color: #000000;
+    font-size: 18px;
+}
+.faq-section h3 {
+    margin-bottom: 65px;
+    font-family: Open-sans;
+    color: #121111;
+    font-size: 25px;
+
+}
+
+/* This is styling of Contact page */
+
+.contact-section h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cinzel-exratbold;
+    
+
+}
+.contact-p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Cinzel-medium;
+
+}
+.contact-ps {
+    margin-left: 90px;
+    margin-bottom: 10px;
+    font-family: Cinzel-medium;
+}
+.contact-main {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.side-1 {
+    width: 50%;
+    height: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-2 {
+    margin-top: 70px;
+    width: 50%;
+    height: 100%;
+}
+
+.first-input {
+   width: 500px;
+   height: 50px;
+   margin-left: 70px;
+   margin-bottom: 117px;
+}
+.second-input {
+    width: 500px;
+   height: 40px;
+   margin-left: 70px;
+   margin-bottom: 133px;
+}
+
+.third-input {
+    width: 525px;
+    height: 300px;
+    margin-left: 70px;
+}
+
+.radio {
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+span {
+    color: #0057FF;
+}
+label {
+    font-family: Cinzel-medium;
+
+}
+.final-btn {
+    margin: 110px 100px 300px 0px;
+    display: block;
+    float: right;
+    width: 200px;
+    height: 60px;
+    background-color: #3F3232;
+    border-radius: 10px;
+    color: white;
+    font-family: Cinzel-bold;
+    border: none;
+    
+}
+
+/* This side will style About us page */
+
+.about-section {
+    width: 99%;
+    height: 900px;
+}
+.about-floor1 {
+    width: 83%;
+    height: 450px;
+    margin-bottom: 260px;
+    display: flex;
+    margin-left: 100px;
+}
+.about-section p {
+    width: 750px;
+    height: 350px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 80px;
+    margin-left: 100px;
+    font-family: Cinzel-medium;
+
+}
+
+.about-floor2 {
+    width: 83%;;
+    height: 450px;
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 410px;
+}
+
+/* This side will style gallery */
+
+
+
+.gallery-box {
+    width: 85%;
+    height: 1300px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 400px;
+}
+.gallery-box img {
+    margin-bottom: 112px;
+}
